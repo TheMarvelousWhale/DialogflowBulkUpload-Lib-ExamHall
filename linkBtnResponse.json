@@ -1,0 +1,40 @@
+{
+  "name": "Knowledge.Location.Where_is_Exam_Hall_A",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 4,
+          "lang": "en",
+          "payload": {
+            "message": "Exam Hall A is located at Nanyang Auditorium, Level B1. Nearest Bus Stop - Red Line Bus Stop, School of Biological Sciences. Public Bus - 179, WKW.",
+            "platform": "kommunicate",
+            "metadata": {
+              "contentType": "300",
+              "templateId": "3",
+              "payload": [
+                {
+                  "type": "link",
+                  "url": "http://maps.ntu.edu.sg/m?q\u003dexamination%20hall%20a\u0026fs\u003ds",
+                  "name": "Go To Google"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}
