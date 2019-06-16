@@ -35,3 +35,6 @@ And hit RUN. Hopefully the following will happen:
 
     Now you need to pray that everything works correctly and upload this zip into the Dialogflow agent.
 
+### EXPECTED OUTPUT
+
+There will be as many intents as there are intended in the excel files. These intents will have a message and a link button to the NTU map
