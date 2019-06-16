@@ -1,6 +1,6 @@
 # Dialogflow Bulk Upload for Library and Exam Hall
 #### _This is a watered down version of the TR code_
-#### _For Simplicity, only Exam Hall will be uploaded, but Lib files will work the same (with the modification in regex pattern)
+#### _For Simplicity, only Exam Hall will be uploaded, but Lib files will work the same (with the modification in regex pattern)_
 
 
 #Instructions
@@ -37,4 +37,4 @@ And hit RUN. Hopefully the following will happen:
 
 ### EXPECTED OUTPUT
 
-There will be as many intents as there are intended in the excel files. These intents will have a message and a link button to the NTU map
+There will be as many intents as there are intended in the excel files. These intents will have a message and a link button to the NTU map (formatted to Kommunicate custom payload)
