@@ -11,29 +11,28 @@ The main file has two columns, one for Q and one for A
 
 ### Now Open the python file
 
-Make sure that the files from line 20-25 (json files) and 40-41 (excel files) are named correctly 
-(if it doesn't then again, FileNotFound Error from Python) 
+Make sure that the files from line 20-25 (json files) and 40-41 (excel files) are named correctly (if it doesn't then again, FileNotFound Error from Python) 
 Make sure the 6 libraries are in your system
 
 And hit RUN. Hopefully the following will happen:
 
-    1. Shutil lib creates a copy of "Lyona Template" folder
+1. Shutil lib creates a copy of "Lyona Template" folder
 
-    2. Pandas read the two excel files into its Dataframes for processing
+2. Pandas reads the two excel files into its Dataframes for processing
 
-    3. Json read the 2 json into python format
+3. Json reads the 2 json into python format
 
-    4. Python goes down the row of the main DF and during which...
-    
-    5. Regex extracts the info out of the DF. *You may wish to update examp (stands for exam - pattern) raw string on line 35*
-    
-    6. Deepcopy makes a copy of the json files and slot the info in the correct place
+4. Python goes down the row of the main DF and during which...
 
-    7. Json exports the python thing into json and put the json directly into the "Lyona Template - Copy" folder.
+5. Regex extracts the info out of the DF. *You may wish to update examp (stands for exam - pattern) raw string on line 35*
 
-    8. Shutil zip the folder up into file called "New Intents.zip" and delete the folder
+6. Deepcopy makes a copy of the json files and Python slots the info in the correct place
 
-    Now you need to pray that everything works correctly and upload this zip into the Dialogflow agent.
+7. Json exports the python thing into json and puts the json directly into the "Lyona Template - Copy" folder.
+
+8. Shutil zips the folder up into file called "New Intents.zip" and deletes the folder
+
+Now you need to pray that everything works correctly and upload this zip into the Dialogflow agent.
 
 ### EXPECTED OUTPUT
 
